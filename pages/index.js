@@ -1,11 +1,20 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Head from "next/head";
+import Image from "next/image";
+import Header from "../src/components/Header";
+import About from "../src/components/About";
+import Projects from "../src/components/Projects";
+import Contact from "../src/components/Contact";
 
 export default function Home() {
   return (
-    <h1 className="text-3xl font-bold underline">
-    Hello world!
-    </h1>
-  )
+    <>
+      <header>
+        <title>maxwell.dev | about</title>
+      </header>
+      <Header />
+      <About />
+      <Projects />
+      <Contact />
+    </>
+  );
 }
