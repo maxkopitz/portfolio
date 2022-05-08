@@ -1,4 +1,3 @@
-
 const NavBar = () => {
   return (
     <nav className="container flex justify-around py-8 mx-auto"> 
