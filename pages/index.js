@@ -1,7 +1,7 @@
-import Header from "../components/Header";
-import About from "../components/About";
-import Projects from "../components/Projects";
-import NavBar from "../components/NavBar";
+import Header from "../components/header";
+import About from "../components/about";
+import Projects from "../components/projects";
+import NavBar from "../components/navbar";
 export default function Home() {
   return (
     <>
