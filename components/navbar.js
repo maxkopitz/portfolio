@@ -5,7 +5,7 @@ const NavBar = () => {
         <h3 className="text-2xl font-medium text-white">FANCY M</h3>
       </div>
       <div className="space-x-8 text-primary"> 
-          <a href="">About</a>
+          <a className="hover:text-sky-400" href="">About</a>
           <a href="">Experience</a>
           <a href="">Projects</a>
           <a href="">Contact Us</a>
