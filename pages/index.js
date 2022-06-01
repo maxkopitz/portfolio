@@ -1,5 +1,4 @@
 import NavBar from '../components/nav/navbar';
-import Intro from '../components/sections/intro';
 export default function Home() {
   return (
     <>
@@ -7,7 +6,7 @@ export default function Home() {
         <title>maxwell.dev | about</title>
       </header>
       <div>
-        <Intro />
+        <NavBar />
       </div>
     </>
   );

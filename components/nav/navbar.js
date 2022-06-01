@@ -1,7 +1,11 @@
+import styles from '../../styles/Nav.module.css'
+import NavItem from './NavItem';
+
+
 const NavBar = () => {
   return (
-    <div>
-      <h1>Hello</h1>
+    <div className={styles.navbar}> 
+      <NavItem />
     </div>
   );
 };
